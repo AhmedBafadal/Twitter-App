@@ -21,7 +21,8 @@ from django.conf.urls.static import static
 from .views import home
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^$',home, name='home' )
+    url(r'^$',home, name='home' ),
+    #url(r'^/$', )
 ]
 
 if settings.DEBUG:
